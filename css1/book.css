@@ -1,0 +1,75 @@
+#sen {
+    list-style-position:inside;
+    font-family: 'Gentium Book Basic', serif;
+}
+nav {
+    background: #f1dabfff;
+  }
+  
+  /*nav bar content arrangment*/
+  .bar {
+    padding: auto;
+    letter-spacing: 2px;
+    border-spacing: 20px;
+    text-transform: uppercase;
+  }
+  a {
+    text-decoration: none;
+    font-size: 1.25em;
+    color: #000500ff;
+  }
+
+
+  a:hover {
+    font-weight:normal ;
+    color: gray;
+  }
+
+  .home_a {
+      text-decoration: none;
+      color: aqua;
+  }
+
+  p {
+    text-align: left;
+  }
+
+
+  /*product lines*/
+
+  .book_name {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.book_image {
+  width: 220px;
+  height: 324px;
+
+}
+
+.book_price {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.book_button {
+  text-align: center;
+  font-size: 2em;
+  width: 8em;
+  font-family: monospace;
+}
+
+.urun_tablosu {
+  border-spacing: 30px;
+}
+
+h3 {
+  text-align: center;
+}
+
+ul li {
+  margin: 0 20px 30px 0;
+  vertical-align: top;
+}
